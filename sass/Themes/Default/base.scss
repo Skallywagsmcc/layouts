@@ -134,8 +134,8 @@
 
   @include dropdown();
   a {
-    color: white;
-
+    color: $primary-text;
+    @include FontThickness();
     @media (max-width: 991.98px) {
       text-indent: 5px;
       padding: 5px 0px;
@@ -143,6 +143,7 @@
   }
 
   a:hover {
+    color: $secondarybg;
     text-decoration: underline;
   }
 }

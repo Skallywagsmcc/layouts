@@ -3,13 +3,24 @@
   .tld-input
   {
 
-
     border: solid 5px $secondarybg;
     border-radius: 10px;
     text-decoration:gold;
     padding: 20px 0px;
     background-color:lighten($input-bg,2);
     color:white;
+  }
+
+  .tld-button {
+    border: solid 5px #ce1126;
+    border-radius: 10px;
+    background-color: #31353a;
+    color: white;
+  }
+
+  .tld-button:hover {
+    border-color: white;
+    background-color: #ce1126;
   }
 
 }
