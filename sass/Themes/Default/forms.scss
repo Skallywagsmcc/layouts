@@ -1,15 +1,23 @@
 .tld-form
 {
-  .tld-input
-  {
 
-    border: solid 5px $secondarybg;
-    border-radius: 10px;
-    text-decoration:gold;
+
+  .tld-input, .tld-input:hover, .tld-input:focus
+  {
+    border:none;
+    border-bottom: solid 3px $secondarybg;
     padding: 20px 0px;
-    background-color:lighten($input-bg,2);
+    background-color:transparent;
+    border-radius:0px;
+    text-indent: 5px;
     color:white;
+
+    :hover
+    {
+      background-color: red;
+    }
   }
+
 
   .tld-button {
     border: solid 5px #ce1126;
