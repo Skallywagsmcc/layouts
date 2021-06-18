@@ -74,9 +74,17 @@
 
 .head {
   color: white;
-  padding: 5px 0px;
+  background-image: url("/Assets/img/head.png");
+  background-repeat: repeat-x;
+  height:40px;
+  padding-left:5px;
   font-size: 1.5rem;
-  @include setborder(solid, 4px, $secondarybg, bottom);
+  border-radius:10px;
+
+  @media (max-width: 991.98px)
+  {
+    border-radius: 0px;
+  }
 }
 
 
