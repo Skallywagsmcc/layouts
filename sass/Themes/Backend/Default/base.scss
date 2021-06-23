@@ -1,0 +1,50 @@
+@import "variables";
+
+html,body
+{
+  background-color: $body;
+  color:$text;
+
+  a
+  {
+    color:#text;
+    font-weight: bolder;
+  }
+}
+
+#navbar
+{
+  background-color: black;
+  color:$text;
+  border-bottom:3px solid red;
+
+  a{
+    color:red;
+
+  }
+
+  a:hover
+  {
+    color:green;
+  }
+
+}
+
+.sidebar
+{
+  border-right: red solid 3px;
+}
+
+.container-wrapper
+{
+  min-height: 90vh;
+}
+.footer
+{
+  min-height: 5vh;
+  border-top:3px solid red;
+  color:$text;
+  //background-color: black;
+}
+
+@import "forms";
