@@ -1,0 +1,40 @@
+
+//Desktop stylesheet
+
+//Start Navigation
+#navbar
+  {
+  //Default Background colour
+  background-color: $body;
+  border-bottom:solid 1px #fff;
+
+  //Default colours for the navigation bar links
+
+  a{
+    color:white;
+  }
+  a:hover
+  {
+    color:black;
+  }
+
+  .nav-item
+  {
+    margin-left: 3px;
+    margin-right: 3px;
+    border-radius: 10px;
+    border:solid 1px white;
+    background-color:$body;
+
+
+
+  }
+  .nav-item:hover
+  {
+    background-color: white;
+    border:solid 1px white;
+    border-radius: 10px;
+  }
+
+  }
+//End Navigation

@@ -1,50 +1,60 @@
 @import "variables";
-
-html,body
-{
+//Set defaults
+html, body {
   background-color: $body;
-  color:$text;
+  color: $primary-text;
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
 
-  a
-  {
-    color:#text;
+  a {
+    color: #text;
     font-weight: bolder;
   }
 }
 
+//Defaults
 #navbar
 {
-  background-color: black;
-  color:$text;
-  border-bottom:3px solid red;
-
-  a{
-    color:red;
-
-  }
-
-  a:hover
+  .navbar-brand
   {
-    color:green;
+    img
+    {
+      height: 50xp;
+      width:50px;
+    }
   }
-
 }
 
-.sidebar
-{
-  border-right: red solid 3px;
-}
 
-.container-wrapper
-{
-  min-height: 90vh;
-}
-.footer
-{
-  min-height: 5vh;
-  border-top:3px solid red;
-  color:$text;
-  //background-color: black;
-}
+//Import Forms styles into the stylesheet
+
 
 @import "forms";
+
+//end forms
+
+/*The Sass/css files below are designed for mobile and desktop layouts
+this is simply defined by a max and minimum width of 998.91px (bootstrap 4.6) settings
+
+these settings will be used to import the chosen stylesheet
+*/
+
+//Small Screen - medium
+
+
+
+@media (min-width: 998.91px) {
+@import "desktop";
+}
+
+@media (max-width: 998.91px) {
+@import "mobile";
+}
+
+.footer {
+  min-height: 5vh;
+  background-color: $primarybg;
+  text-align: center;
+}
+
