@@ -1,15 +1,22 @@
-$body:#263238;
+//Main Background
+$body:darken(#f1f1f1,2);
 
-// background-colours
+$navbarbg:#000;
+$navbartext:#fff;
 
-$primarybg:#00247d;
+$tabsbg:#515151;
+$tabstext:#fff;
+
+$tabstexthover:#000;
+$tabs_hover:$body;
+
+
+
+$primarybg:#fff;
 $secondarybg:#ce1126;
 
-$a-primary:white;
-$a-secondary:#ce1126;
+$a-primary:black;
+$a-secondary:#black;
 //text-colours
-$primary-text:#fff;
-$secondary-text:#000;
-
-
-$input-bg:#363A40;
+$primary-text:#000;
+$secondary-text:#fff;

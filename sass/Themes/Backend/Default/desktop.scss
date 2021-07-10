@@ -1,40 +1,107 @@
-
 //Desktop stylesheet
 
 //Start Navigation
-#navbar
-  {
-  //Default Background colour
-  background-color: $body;
-  border-bottom:solid 1px #fff;
-
+#navbar {
+  //Default Background colourx;
   //Default colours for the navigation bar links
 
-  a{
-    color:white;
-  }
-  a:hover
-  {
-    color:black;
+  a {
+    color: white;
   }
 
-  .nav-item
-  {
+  a:hover {
+    color: black;
+  }
+
+  .nav-item {
+    position: relative;
+    bottom: -19px;
     margin-left: 3px;
     margin-right: 3px;
-    border-radius: 10px;
-    border:solid 1px white;
-    background-color:$body;
 
+    a {
+      border: solid 2px red;
+      border-bottom: none;
+      background-color: $tabsbg;
+      color:$tabstext;
+      border-radius: 5px 5px 0px 0px;
+    }
+
+    a:hover {
+      color: $tabstexthover;
+      background-color: $tabs_hover;
+      border: solid 2px red;
+      border-bottom: none;
+      border-radius: 5px 5px 0px 0px;
+    }
 
 
   }
-  .nav-item:hover
-  {
-    background-color: white;
-    border:solid 1px white;
-    border-radius: 10px;
-  }
 
-  }
+}
+
 //End Navigation
+
+
+#help-toggle {
+  border-radius: 10px;
+  border: solid 1px #fff;
+  background-color: darken($body, 2);
+}
+
+#help-toggle:hover {
+  background-color: lighten($body, 1);
+}
+
+#help {
+  border: solid 1px #000;
+  padding: 10px 0px;
+  border-radius: 5px;
+  background-color: darken($body, 2);
+
+}
+
+.head {
+  width: 100%;
+  background-color: #515151;
+
+  color: #fff;
+  font-weight: bolder;
+  border-radius: 3px 3px 0px 0px;
+  border:solid 1px #000;
+  border-bottom: none;
+  padding: 5px 0px;
+  text-indent: 10px;
+}
+
+
+.profile_pic {
+  border: 2px solid red;
+  height: 30px;
+  border-radius: 50%;
+  clip: auto;
+  width: 30px;
+}
+
+.info
+{
+  background: #f1f1f1;
+  color: #000;
+  border:solid 1px #000;
+  border-top:none;
+  border-radius: 0px 0px 3px 3px;
+
+  a{
+    display: block;
+    padding:8px 0px;
+    color: #000;
+    text-align: center;
+  }
+
+  a:hover
+  {
+    background-color:darken(#515151,2);
+    color:#fff;
+  }
+
+}
