@@ -51,19 +51,12 @@
   .head
   {
     padding:10px 0px;
+    background:orange;
     text-indent: 5px;
     border-bottom: solid 1px #000;
   }
 
 
-}
-
-.box:hover
-{
-  .head
-  {
-    background-color: red;
-  }
 }
 
 #help-toggle {
@@ -94,25 +87,33 @@
   width: 30px;
 }
 
-.info
+.tu
 {
-  background: #f1f1f1;
-  color: #000;
-  border:solid 1px #000;
-  border-top:none;
-  border-radius: 0px 0px 3px 3px;
+  text-decoration: underline;
+}
 
-  a{
-    display: block;
-    padding:8px 0px;
-    color: #000;
-    text-align: center;
-  }
-
-  a:hover
-  {
-    background-color:darken(#515151,2);
+.new
+{
+  a,a:hover,a:active,a:focus,a:link{
     color:#fff;
+    border-radius: 10px;
+    background-color:#336699;
   }
+}
 
+.link,.link:link,.link:active,.link:focus,.link:hover{
+  color:#fff;
+  border-radius: 10px;
+  background-color:#336699;
+}
+
+.withhover:hover
+{
+  background-color: lighten(#336699,5);
+  color:white;
+
+  a,a:link,a:hover
+  {
+    color: white;
+  }
 }
