@@ -42,28 +42,27 @@
 }
 
 
-.info
-{
-  border: solid 1px $secondarybg;
-  background: $input-bg;
-  font-weight: bolder;
-  color:$primary-text;
+.border-left{
+  border-left: solid 3px $secondarybg;
+}
 
-  .head{
-    text-indent: 5px;
-  }
-
-  .foot
-  {
-    padding:5px 0px;
-    border-top: solid 1px $secondarybg;
-  }
-  a{
-    color: $primary-text;
-  }
+.border-right{
+  border-right: solid 3px $secondarybg;
 }
 
 
+.border-top{
+  border-top: solid 3px $secondarybg;
+}
+
+.border-bottom{
+  border-bottom: solid 3px $secondarybg;
+}
+
+.fullborder
+{
+  border:solid 3px $secondarybg;
+}
 
 
 .col-md-6 img, .col-lg-3 img {
@@ -74,17 +73,10 @@
 
 .head {
   color: white;
-  background-image: url("/Assets/img/head.png");
+  border-bottom: solid 3px $secondarybg;
   background-repeat: repeat-x;
   height:40px;
-  padding-left:5px;
   font-size: 1.5rem;
-  border-radius:10px;
-
-  @media (max-width: 991.98px)
-  {
-    border-radius: 0px;
-  }
 }
 
 
