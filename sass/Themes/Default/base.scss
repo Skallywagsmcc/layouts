@@ -154,5 +154,14 @@
   @include setheight(5vh);
 }
 
+.subnav
+{
+  list-style: none;
+  li
+  {
+    list-style: none;
+  }
+}
+
 @import "auth";
 @import "forms";
