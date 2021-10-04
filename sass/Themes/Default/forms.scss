@@ -1,32 +1,32 @@
 .tld-form
 {
+  label
+  {
+    padding:5px 0px;
+    font-weight: bolder;
+    margin-top:1rem;
+    color: $secondarybg;
+  }
   .tld-input, .tld-input:hover, .tld-input:focus
   {
-    border:none;
-    border-bottom: solid 3px $secondarybg;
+
     padding: 20px 0px;
-    background-color:transparent;
-    border-radius:0px;
+    border:solid 1px $secondarybg;
+    background-color: lighten($body,2);
     text-indent: 5px;
     color:white;
-
-    :hover
-    {
-      background-color: red;
-    }
   }
 
 
   .tld-button {
-    border: solid 5px #ce1126;
-    border-radius: 10px;
-    background-color: #31353a;
-    color: white;
+    border:none;
+    border:solid 2px $secondarybg;
+    background-color: darken($body,2);
+    color: white;;
   }
 
   .tld-button:hover {
-    border-color: white;
-    background-color: #ce1126;
+    background-color: lighten($body,1);
   }
 
 }
