@@ -117,3 +117,19 @@
     color: white;
   }
 }
+
+
+#sidebar
+{
+  height: 100vh;
+  div {
+    width: 0px;
+    height: 100vh;
+    transition: width 1s;
+  }
+
+  div:hover {
+    width: 500px;
+  }
+}
+

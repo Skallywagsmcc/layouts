@@ -21,6 +21,9 @@ html, body {
   font-weight: bolder;
 }
 
+
+
+
 //Defaults
 #navbar
 {
@@ -81,10 +84,15 @@ these settings will be used to import the chosen stylesheet
 @import "mobile";
 }
 
+
+
+
 .footer {
   min-height: 5vh;
   border-top: solid 1px #fff;
   background-color: $body;
   text-align: center;
 }
+
+
 
