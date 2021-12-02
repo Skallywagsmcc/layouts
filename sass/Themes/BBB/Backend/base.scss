@@ -1,0 +1,25 @@
+
+
+//Do not modify this file no real need to
+
+//Variables must be at the top
+@import "Variables";
+
+//Mixins here
+@import "Mixins/Base";
+
+//Shared Resources go in global files
+@import "global";
+
+//End Defaults
+
+//Add Detection for mobile and Desktop views
+@media (min-width: 998.91px) {
+  @import "desktop";
+}
+
+@media (max-width: 998.91px) {
+  @import "mobile";
+}
+
+//End Screen Detection

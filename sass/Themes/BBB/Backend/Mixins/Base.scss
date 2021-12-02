@@ -1,0 +1,7 @@
+@mixin body() {
+  background-color: $body;
+  color:$body_text;
+  margin: 0;
+  height: 100%;
+  font-size:$body_font_size;
+}

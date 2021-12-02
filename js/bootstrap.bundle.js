@@ -1131,7 +1131,7 @@
         return VERSION$2;
       }
     }, {
-      key: "Default",
+      key: "DefaultOld",
       get: function get() {
         return Default;
       }
@@ -1473,7 +1473,7 @@
         return VERSION$3;
       }
     }, {
-      key: "Default",
+      key: "DefaultOld",
       get: function get() {
         return Default$1;
       }
@@ -3901,7 +3901,7 @@
    */
 
   /**
-   * Default options provided to Popper.js constructor.<br />
+   * DefaultOld options provided to Popper.js constructor.<br />
    * These can be overridden using the `options` argument of Popper.js.<br />
    * To override an option, simply pass an object with the same
    * structure of the `options` object, as the 3rd argument. For example:
@@ -4605,7 +4605,7 @@
         return VERSION$4;
       }
     }, {
-      key: "Default",
+      key: "DefaultOld",
       get: function get() {
         return Default$2;
       }
@@ -5202,7 +5202,7 @@
         return VERSION$5;
       }
     }, {
-      key: "Default",
+      key: "DefaultOld",
       get: function get() {
         return Default$3;
       }
@@ -6048,7 +6048,7 @@
         return VERSION$6;
       }
     }, {
-      key: "Default",
+      key: "DefaultOld",
       get: function get() {
         return Default$4;
       }
@@ -6228,7 +6228,7 @@
         return VERSION$7;
       }
     }, {
-      key: "Default",
+      key: "DefaultOld",
       get: function get() {
         return Default$5;
       }
@@ -6529,7 +6529,7 @@
         return VERSION$8;
       }
     }, {
-      key: "Default",
+      key: "DefaultOld",
       get: function get() {
         return Default$6;
       }
@@ -6989,7 +6989,7 @@
         return DefaultType$7;
       }
     }, {
-      key: "Default",
+      key: "DefaultOld",
       get: function get() {
         return Default$7;
       }
