@@ -1,5 +1,4 @@
 
-
 body {
   @include body();
 }
@@ -14,25 +13,38 @@ body {
 }
 
 .footer {
-  border-top:#353535 $border_size $border_type;
-  color:$footer_text;
+  border-top: #353535 $border_size $border_type;
+  color: $footer_text;
+  text-align: center;
   min-height: 5vh;
+  font-size: 1.3rem;
+  font-weight: bolder;
 }
 
-#topbar
-{
-  background-color:#353535;
-  color:#fff;
+#topbar {
+  background-color: #353535;
+  color: #fff;
+
+  a.menu, a.closemenu {
+    background-color: $primary_bg;
+    color: white;
+    border-radius: 20%;
+  }
+  a.menu:hover, a.closemenu:hover
+  {
+    background-color:white;
+    color:#000;
+  }
 }
 
-.box{
-  color:$primary-text;
+.box {
+  color: $primary-text;
 
-  .head{
-    background-color:#353535;
+  .head {
+    background-color: #353535;
     border-bottom: solid 1px #ffff;
     font-size: 18px;
-    font-weight:bolder;
+    font-weight: bolder;
     text-indent: 5px;
     margin-bottom: 5px;
   }
