@@ -16,9 +16,13 @@ body {
   border-top: #353535 $border_size $border_type;
   color: $footer_text;
   text-align: center;
-  min-height: 5vh;
+  min-height: 50px;
   font-size: 1.3rem;
   font-weight: bolder;
+  position: relative;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
 }
 
 #topbar {
